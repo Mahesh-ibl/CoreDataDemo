@@ -14,6 +14,9 @@
 		9930F65925F0B80900254FF3 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9930F65725F0B80900254FF3 /* CoreDataDemo.xcdatamodeld */; };
 		9930F65B25F0B80D00254FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9930F65A25F0B80D00254FF3 /* Assets.xcassets */; };
 		9930F65E25F0B80D00254FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9930F65C25F0B80D00254FF3 /* LaunchScreen.storyboard */; };
+		9930F66725F0BA3900254FF3 /* CoreDataUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930F66625F0BA3900254FF3 /* CoreDataUtility.swift */; };
+		9930F66D25F0D2D400254FF3 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930F66C25F0D2D400254FF3 /* StudentCell.swift */; };
+		9930F66F25F0DC5B00254FF3 /* ActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930F66E25F0DC5B00254FF3 /* ActionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9930F65A25F0B80D00254FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9930F65D25F0B80D00254FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9930F65F25F0B80D00254FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9930F66625F0BA3900254FF3 /* CoreDataUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUtility.swift; sourceTree = "<group>"; };
+		9930F66C25F0D2D400254FF3 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		9930F66E25F0DC5B00254FF3 /* ActionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		9930F64D25F0B80900254FF3 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9930F66B25F0D2C200254FF3 /* CustomCell */,
+				9930F66525F0B9FF00254FF3 /* Utilites */,
 				9930F64E25F0B80900254FF3 /* AppDelegate.swift */,
 				9930F65025F0B80900254FF3 /* SceneDelegate.swift */,
 				9930F65225F0B80900254FF3 /* ViewController.swift */,
@@ -68,6 +76,23 @@
 				9930F65725F0B80900254FF3 /* CoreDataDemo.xcdatamodeld */,
 			);
 			path = CoreDataDemo;
+			sourceTree = "<group>";
+		};
+		9930F66525F0B9FF00254FF3 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				9930F66625F0BA3900254FF3 /* CoreDataUtility.swift */,
+				9930F66E25F0DC5B00254FF3 /* ActionProtocol.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		9930F66B25F0D2C200254FF3 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				9930F66C25F0D2D400254FF3 /* StudentCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +168,11 @@
 			files = (
 				9930F65325F0B80900254FF3 /* ViewController.swift in Sources */,
 				9930F65925F0B80900254FF3 /* CoreDataDemo.xcdatamodeld in Sources */,
+				9930F66F25F0DC5B00254FF3 /* ActionProtocol.swift in Sources */,
+				9930F66725F0BA3900254FF3 /* CoreDataUtility.swift in Sources */,
 				9930F64F25F0B80900254FF3 /* AppDelegate.swift in Sources */,
 				9930F65125F0B80900254FF3 /* SceneDelegate.swift in Sources */,
+				9930F66D25F0D2D400254FF3 /* StudentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
